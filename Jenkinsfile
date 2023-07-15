@@ -106,6 +106,7 @@ properties([
     ])
 ])
 
+def selectedEnvs = params.ENVIRONMENT.split(',')
 def selectedProxyDeploy = params.PROXY_NAME_TO_DEPLOY.split(',')
 
 pipeline {

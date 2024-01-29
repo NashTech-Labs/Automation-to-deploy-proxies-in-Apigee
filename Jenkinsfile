@@ -1,4 +1,4 @@
-def envList = ['dev-env', 'qa-env', 'qa1-env', 'ts-env', 'ts2-env', 'ts3-env', 'perf1-env', 'perf2-env']
+def envList = ['dev-env', 'qa-env']
 def orgList = ['APIGEE_ORGANISATION_NAME']
 
 // Parameters Separated with Separator
